@@ -1,4 +1,4 @@
-# IaaS control plane Jumpbox using VMOperator
+# Supervisor Jumpbox using VMOperator
 
 You can leverage this repository to deploy a Jumpbox using VMOperator on your Supervisor Cluster (vSphere with Tanzu). This simple implementation securely exposes the Linux login shell over a web browser and can also be accessed by SSH. 
 
@@ -19,7 +19,7 @@ The available SHELL options are -
   - bash
   - zsh
 
-An additional 10 GB disk is mounted on `/data` for additional storage. 
+An additional 10 GB disk is mounted on `/data` for extra storage. 
 
 The default user is `vmware-system-user` which can run `docker` and `sudo` commands. The current shell is `zsh` and use `oh-my-zsh` for a better UX experience. This can be modified as needed. 
 
